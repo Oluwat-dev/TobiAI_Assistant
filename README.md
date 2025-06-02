@@ -1,6 +1,6 @@
 # Tobi AI Assistant
 
-![Tobi AI Assistant Screenshot](https://app.tagbox.io/w/683dfbc1e52ac800113d5197?openedFile=49e5299f-cddd-4160-bee9-186eb13db0dd)
+![Tobi AI Assistant Screenshot](https://d1fvq72qdoyrow.cloudfront.net/683dfbc1e52ac800113d5192/49e5299f-cddd-4160-bee9-186eb13db0dd---jj.png?Expires=1748979108&Key-Pair-Id=K30Q3TNPY13FGE&Signature=VC5Bq0ph-4QsrGvfq4-Nk86qvzk8sc-AE3czd1XfTyo5P8gfNxSIzrkNcQagIx8nZhOKFN6Qns9SHNzdUfQWOLTvcuLojUJtPl02gC2eD2e3iHZQ1Wzy15ClaMFVNxfpe5q2LhBj~aLvz6CKFiksWsL6OumrFIE2tRUraid2tnHadWqps-XRL9Vb-H09WszQ~dkyt4bkIXE1hDut~-HW-OmQ4jRTFUa~byZfm9mcHvJ2q8k6EY4OzbTd1t5zObe5dFuOM6hrYtwJDYEncwpb2b8cGD2UDzSfYcfzJWCqOlngRFrwwPVj5A0MmjQtjctDyinum-EBIHiVSUoBCAlzUA)
 
 
 Tobi AI Assistant is an interactive AI chatbot built with Natural Language Processing (NLP) capabilities. Developed by Aluko Oluwatobi, this assistant is designed to provide information and engage in conversations about AI, software development, programming languages, and other technical topics.
