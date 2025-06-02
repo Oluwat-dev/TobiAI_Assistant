@@ -91,8 +91,6 @@ Try asking questions about:
 *   "Tell me about programming languages." and lots more...
 
 ## Project Structure
-
-.
 ├── public/                 # Static assets
 ├── src/                    # Source code
 │   ├── components/         # Reusable React components
