@@ -139,6 +139,6 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 For any questions or inquiries, please reach out me:
 
 *   **Aluko Oluwatobi**
-    *   [GitHub Profile](https://github.com/Oluwat-dev) *(Consider adding your actual GitHub profile link here)*
-    *   [LinkedIn Profile]([https://www.linkedin.com/in/aluko-oluwatobi/](https://www.linkedin.com/in/aluko-oluwatobi-a2536823a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) *
+    *   [GitHub Profile](https://github.com/Oluwat-dev) 
+    *   [LinkedIn Profile](https://www.linkedin.com/in/aluko-oluwatobi/](https://www.linkedin.com/in/aluko-oluwatobi-a2536823a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) *
 
