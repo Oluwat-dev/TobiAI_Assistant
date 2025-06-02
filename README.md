@@ -1,6 +1,6 @@
 # Tobi AI Assistant
 
-![Tobi AI Assistant Screenshot](https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+![Tobi AI Assistant Screenshot](https://app.tagbox.io/w/683dfbc1e52ac800113d5197?openedFile=49e5299f-cddd-4160-bee9-186eb13db0dd)
 
 
 Tobi AI Assistant is an interactive AI chatbot built with Natural Language Processing (NLP) capabilities. Developed by Aluko Oluwatobi, this assistant is designed to provide information and engage in conversations about AI, software development, programming languages, and other technical topics.
@@ -46,9 +46,9 @@ Follow these steps to get the Tobi AI Assistant running on your local machine.
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/AlukoOluwatobi/tobi-ai-assistant.git
+    git clone https://github.com/Oluwat-dev/TobiAI_Assistant.git
     ```
-    *(Replace `https://github.com/AlukoOluwatobi/tobi-ai-assistant.git` with your actual repository URL)*
+
 
 2.  **Navigate to the project directory**:
     ```bash
@@ -88,7 +88,7 @@ Try asking questions about:
 *   "Who developed you?"
 *   "Explain NLP."
 *   "What can you do?"
-*   "Tell me about programming languages."
+*   "Tell me about programming languages." and lots more...
 
 ## Project Structure
 
@@ -141,6 +141,6 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 For any questions or inquiries, please reach out me:
 
 *   **Aluko Oluwatobi**
-    *   [GitHub Profile](https://github.com/AlukoOluwatobi) *(Consider adding your actual GitHub profile link here)*
-    *   [LinkedIn Profile](https://www.linkedin.com/in/aluko-oluwatobi/) *(Consider adding your actual LinkedIn profile link here)*
+    *   [GitHub Profile](https://github.com/Oluwat-dev) *(Consider adding your actual GitHub profile link here)*
+    *   [LinkedIn Profile]([https://www.linkedin.com/in/aluko-oluwatobi/](https://www.linkedin.com/in/aluko-oluwatobi-a2536823a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) *
 
