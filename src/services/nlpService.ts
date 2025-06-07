@@ -1,30 +1,16 @@
-import { advancedNLP } from './advancedNLP';
-import { responseGenerator } from './responseGenerator';
-import { contextManager } from './contextManager';
+import { intelligentAI } from './intelligentAI';
 
 export const processMessage = async (message: string): Promise<string> => {
   try {
-    // Analyze the message using advanced NLP
-    const analysis = advancedNLP.analyzeMessage(message);
-    
-    // Generate intelligent response
-    const response = responseGenerator.generateResponse(message, analysis);
-    
-    // Update conversation context
-    contextManager.addToHistory(message, response, analysis.topics);
-    
-    // Update user preferences based on the message
-    const inferredLevel = contextManager.inferUserLevel(message);
-    contextManager.updateUserPreferences(inferredLevel, analysis.keywords);
-    
-    return response;
+    // Use the intelligent AI system for processing
+    return await intelligentAI.processMessage(message);
   } catch (error) {
     console.error('Error processing message:', error);
-    return "I apologize, but I encountered an issue processing your message. Could you please try rephrasing your question? I'm here to help with any technical topics, AI discussions, or general questions you might have.";
+    return "I apologize, but I encountered an issue processing your message. This is unusual for my advanced AI system! " +
+           "Could you try rephrasing your question? I'm designed to handle complex conversations and technical topics, " +
+           "so I should be able to help once I understand what you're looking for.";
   }
 };
 
-// Export additional utilities for potential future use
-export { advancedNLP } from './advancedNLP';
-export { responseGenerator } from './responseGenerator';
-export { contextManager } from './contextManager';
+// Export the intelligent AI instance for potential direct access
+export { intelligentAI } from './intelligentAI';
