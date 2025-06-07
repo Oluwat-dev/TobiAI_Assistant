@@ -1,16 +1,28 @@
+import { openaiService } from './openaiService';
 import { intelligentAI } from './intelligentAI';
 
 export const processMessage = async (message: string): Promise<string> => {
   try {
-    // Use the intelligent AI system for processing
-    return await intelligentAI.processMessage(message);
+    // Check if OpenAI is configured and use it for the most intelligent responses
+    if (openaiService.isConfigured()) {
+      return await openaiService.generateResponse(message);
+    } else {
+      // Fallback to local intelligent AI system
+      return await intelligentAI.processMessage(message);
+    }
   } catch (error) {
     console.error('Error processing message:', error);
-    return "I apologize, but I encountered an issue processing your message. This is unusual for my advanced AI system! " +
-           "Could you try rephrasing your question? I'm designed to handle complex conversations and technical topics, " +
-           "so I should be able to help once I understand what you're looking for.";
+    
+    // Try fallback to local AI
+    try {
+      return await intelligentAI.processMessage(message);
+    } catch (fallbackError) {
+      console.error('Fallback AI also failed:', fallbackError);
+      return "I apologize, but I'm experiencing technical difficulties. Please try rephrasing your question or check back in a moment.";
+    }
   }
 };
 
-// Export the intelligent AI instance for potential direct access
+// Export services for potential direct access
+export { openaiService } from './openaiService';
 export { intelligentAI } from './intelligentAI';
